@@ -64,12 +64,13 @@ public class BrandController {
 			return new Result(false,"修改失败!");
 		}
 	}
-	
+
 	/**
 	 * 删除文件
 	 * @param ids
 	 * @return
 	 */
+
 	@RequestMapping("/delete")
 	public Result delete(Long[] ids){
 		try{
