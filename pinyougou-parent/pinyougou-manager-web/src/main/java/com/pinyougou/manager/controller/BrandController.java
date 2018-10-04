@@ -65,6 +65,11 @@ public class BrandController {
 		}
 	}
 	
+	/**
+	 * 删除文件
+	 * @param ids
+	 * @return
+	 */
 	@RequestMapping("/delete")
 	public Result delete(Long[] ids){
 		try{
