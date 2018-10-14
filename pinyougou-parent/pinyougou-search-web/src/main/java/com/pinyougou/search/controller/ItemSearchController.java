@@ -13,7 +13,10 @@ import com.pinyougou.search.service.ItemSearchService;
 @RequestMapping("/itemsearch")
 public class ItemSearchController {
 	
+
 	//解决冲突
+
+
 	@Reference
 	private ItemSearchService itemSearchService;
 	
