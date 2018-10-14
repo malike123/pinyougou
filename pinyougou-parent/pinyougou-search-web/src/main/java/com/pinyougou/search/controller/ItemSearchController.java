@@ -13,6 +13,7 @@ import com.pinyougou.search.service.ItemSearchService;
 @RequestMapping("/itemsearch")
 public class ItemSearchController {
 	
+	//github  添加冲突
 	@Reference
 	private ItemSearchService itemSearchService;
 	
